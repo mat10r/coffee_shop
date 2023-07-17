@@ -33,6 +33,7 @@ def coffee_bot():
 
     name  = input('Can I get your name for the order please?\n> ')
     location = to_go()
+    price = price * 1.15
     print(Order(name, drinks, location, price))
     
 def get_size():
